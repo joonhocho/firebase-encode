@@ -30,9 +30,9 @@ firebaseRef.child(encode('02/10/2013.$[]#/')).set(true)
 
 ### Source Code
 ```javascript
-const encode = (str) => encodeURIComponent(str).replace(dots, escapedDot);
+const encode = (str) => encodeURIComponent(str).replace(dots, '%2E');
 
-const decode = (str) => decodeURIComponent(str.replace(escapedDot, '.'));
+const decode = (str) => decodeURIComponent(str.replace('%2E', '.'));
 ```
 
 
