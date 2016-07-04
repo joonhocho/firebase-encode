@@ -1,6 +1,6 @@
 {
   "name": "firebase-encode",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Encode and decode firebase key string to escape and unescape unsafe characters (.$[]#/).",
   "main": "lib/index.js",
   "scripts": {
