@@ -1,6 +1,6 @@
 {
   "name": "firebase-encode",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Encode (escape) and decode firebase key string to avoid unexpected results.",
   "main": "lib/index.js",
   "scripts": {

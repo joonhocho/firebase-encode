@@ -23,16 +23,11 @@ import {
   decode,
 } from 'firebase-encode';
 
-// safe encodes to `02%2F10%2F2013%2E%24%5B%5D%23%2F`.
-firebaseRef.child(encode('02/10/2013.$[]#/')).set(true)
-```
+// safe encodes to 02%2F10%2F2013%2E%24%5B%5D%23%2F%25234_-!@%23%24%25^&*()0%5D;:'"`\=%2F?+|.
+const encoded = encode('02/10/2013.$[]#/%234_-!@#$%^&*()0];:\'"`\\=/?+|');
 
-
-### Source Code
-```javascript
-const encode = (str) => encodeURIComponent(str).replace(dots, '%2E');
-
-const decode = (str) => decodeURIComponent(str.replace('%2E', '.'));
+// now is a safe child key.
+firebaseRef.child(encoded).set(true);
 ```
 
 
