@@ -1,7 +1,7 @@
 {
   "name": "firebase-encode",
-  "version": "0.0.3",
-  "description": "Encode (escape) and decode firebase key string to avoid unexpected results.",
+  "version": "0.0.4",
+  "description": "Encode and decode firebase key string to escape and unescape unsafe characters (.$[]#/).",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",

@@ -5,7 +5,7 @@
 [![Dependency Status](https://david-dm.org/joonhocho/firebase-encode.svg)](https://david-dm.org/joonhocho/firebase-encode)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-Encode (escape) and decode firebase key string to avoid unexpected results.
+Encode and decode firebase key string to escape and unescape unsafe characters (.$[]#/).
 
 Checkout [firebase-encode](https://github.com/joonhocho/firebase-encode) for validating string inputs.
 
