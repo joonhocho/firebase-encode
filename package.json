@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "Encode and decode firebase key string to escape and unescape unsafe characters (.$[]#/).",
   "main": "lib/index.js",
+  "types": "./src/index.d.ts",
   "scripts": {
     "build": "babel src --out-dir lib",
     "build-watch": "babel src --watch --out-dir lib",
